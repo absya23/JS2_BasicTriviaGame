@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mali", cursive;
+}
+
+html {
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background-color: #b7d9cc;
+  position: relative;
+}
+
+h1 {
+  margin: 20px 0 20px;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  text-shadow: 5px 5px 5px #fff;
+}
+
+h2 {
+  color: #fafa84;
+  display: inline-block;
+  padding: 5px 12px;
+  background-color: #d10f0f;
+  border-radius: 10px;
+  margin-left: -10px;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+#game {
+  display: flex;
+}
+
+.genre-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card {
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #dab6c3;
+  border: 5px solid #fafa84;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  font-size: 100px;
+  /* line-height: 1.7; */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-display {
+  padding: 10px 5px 20px;
+}
+
+.btn {
+  padding: 4px 8px;
+  margin: 0 8px;
+  outline: none;
+  border: 1px solid #fafa84;
+  border-radius: 6px;
+}
+
+.btn.true-button {
+  background-color: #70f787;
+}
+
+.btn.false-button {
+  background-color: #f56b6b;
+}
+
+.btn:hover {
+  border: 1px solid #b7d9cc;
+  cursor: pointer;
+}
+
+.correct-answer {
+  background-color: #2fdd86;
+}
+
+.wrong-answer {
+  background-color: coral;
+}
+
+.card button {
+  padding: 4px 8px;
+}
